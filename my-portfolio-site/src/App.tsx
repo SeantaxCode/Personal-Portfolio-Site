@@ -1,6 +1,7 @@
 import ExploreNav from './ExploreNav.tsx'
 import SideNavBar from './SideNavBar.tsx'
 import TabNav from './TabNav.tsx'
+import CodeEditor from './CodeEditor.tsx'
 
 function App() {
 
@@ -10,6 +11,7 @@ function App() {
         <ExploreNav/>
         <TabNav/>
         <SideNavBar/>
+        <CodeEditor/>
       </div>
     </>
   )
