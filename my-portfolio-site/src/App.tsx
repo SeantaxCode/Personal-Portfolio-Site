@@ -1,6 +1,6 @@
 import ExploreNav from './ExploreNav.tsx'
-import NavBar from './NavBar.tsx'
-import TopNavBar from './TopNavBar'
+import SideNavBar from './SideNavBar.tsx'
+import TabNav from './TabNav.tsx'
 
 function App() {
 
@@ -8,8 +8,8 @@ function App() {
     <>
       <div className="container">
         <ExploreNav/>
-        <TopNavBar/>
-        <NavBar/>
+        <TabNav/>
+        <SideNavBar/>
       </div>
     </>
   )
