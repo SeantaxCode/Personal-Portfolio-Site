@@ -8,7 +8,6 @@ body {
     height: 100%;
     background-color: #252526;
     font-family: "Source Code Pro", Monospace;
-    display: flex;
     
 }
 
@@ -23,6 +22,8 @@ body {
     gap: 10px;
     box-shadow: 0px 3px 2px rgba(0, 0, 0, 0.3);
     margin-bottom: 2px;
+    grid-column: 1; /* column 1, row 1 (default) */
+    grid-row: 1;
 }
 
 .ExploreNav span {
@@ -31,21 +32,42 @@ body {
 
 .NavBar {
     color: white;
-    padding: 10px 50px;
-    max-width: 200px;
+    width: 100%;
     max-height: 100%;
-    display: flex;
+    display: block;
     flex-direction: column;
-    gap: 10px;
     font-size: 15px;
+    grid-column: 1; /* column 1, row 2 */
+    grid-row: 2;
 }
 
 .NavBar p {
-    width: 100%;
+    padding: 5px;
+    border: 1px solid #252526;
 }
 
 .NavBar p:hover {
     cursor: pointer;
     background-color: #003580;
     border: 1px solid #006Aff;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 200px; /* two columns */
+    grid-template-rows: auto;
+    gap: 0;
+}
+
+.TopNavBar {
+    background-color: #2d2d2d;
+    max-height: 45px;
+    color: white;
+    grid-column: 2; /* column 2, row 1 */
+    grid-row: 1;
+}
+
+.TopNavBar p {
+    display: inline;
+    padding: 80px;
 }

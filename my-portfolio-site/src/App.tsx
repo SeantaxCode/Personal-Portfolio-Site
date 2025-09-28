@@ -6,9 +6,11 @@ function App() {
 
   return (
     <>
-      <TopNavBar/>
-      <ExploreNav/>
-      <NavBar/>
+      <div className="container">
+        <ExploreNav/>
+        <TopNavBar/>
+        <NavBar/>
+      </div>
     </>
   )
 }

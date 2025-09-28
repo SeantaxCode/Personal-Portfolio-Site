@@ -1,10 +1,10 @@
 
 function ExploreNav(){
     return(
-        <div className="ExploreNav">
+        <span className="ExploreNav">
             <p>EXPLORER</p>
             <p><span>VSCODE</span></p>
-        </div>
+        </span>
     )
 }
 

@@ -1,8 +1,11 @@
 
 function TopNavBar(){
     return(
-        <div>
+        <div className="TopNavBar">
             <p>homepage.html</p>
+            <p>aboutme.css</p>
+            <p>project.js</p>
+            <p>README.md</p>
         </div>
     )
 }
