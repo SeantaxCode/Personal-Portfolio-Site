@@ -2,6 +2,7 @@ import ExploreNav from './ExploreNav.tsx'
 import SideNavBar from './SideNavBar.tsx'
 import TabNav from './TabNav.tsx'
 import CodeEditor from './CodeEditor.tsx'
+import Terminal from './Terminal.tsx'
 
 function App() {
 
@@ -12,6 +13,7 @@ function App() {
         <TabNav/>
         <SideNavBar/>
         <CodeEditor/>
+        <Terminal/>
       </div>
     </>
   )
